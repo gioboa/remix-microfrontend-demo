@@ -1,0 +1,18 @@
+{
+	"name": "module-federation-vite-remix",
+	"version": "1.0.0",
+	"description": "Module Federation Vite + Remix is now possible",
+	"scripts": {
+		"install:deps": "pnpm --filter module-federation-vite-remix-* install",
+		"postinstall:deps": "pnpm --filter module-federation-vite-remix-* run build",
+		"dev": "pnpm --filter module-federation-vite-remix-* dev",
+		"build": "pnpm --filter module-federation-vite-remix-* build",
+		"preview": "pnpm --filter module-federation-vite-remix-* preview"
+	},
+	"author": {
+		"name": "Giorgio Boa",
+		"email": "giorgiob.boa@gmail.com",
+		"url": "https://github.com/gioboa"
+	},
+	"license": "ISC"
+}
