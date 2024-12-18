@@ -2,11 +2,11 @@
 
 ## Not working yet 
 
-This import is never resolved 😮‍💨
+This import is never resolved ( no errors ) 😮‍💨
 
 ```
 const Remote = lazy(
-	async () => import('remote/remote-app'),
+  async () => import('remote/remote-app'),
 );
 ```
 
